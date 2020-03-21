@@ -1,0 +1,227 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.audio {
+  text-align: center;
+  position: relative;
+}
+
+.btn {
+  margin: 30px;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 1.5rem;
+}
+
+.llama1 {
+  height: 400px;
+  width: auto;
+  border-style: double;
+  border-color: pink;
+  margin: 0 30px 0 30px;
+  position: relative;
+}
+
+.llamamation1 {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+.llamamation2 {
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+.llama2 {
+  height: 400px;
+  width: auto;
+  border-style: double;
+  border-color: pink;
+  margin: 0 30px 0 30px;
+  position: relative;
+}
+
+.rules {
+  position: absolute;
+  left: 20px;
+  top: 160px;
+}
+
+.card {
+  text-align: left;
+}
+  @keyframes example {
+    0% {
+      right: 0px;
+      top: 0px;
+    }
+
+    25% {
+      right: 800px;
+      top: 0px;
+    }
+
+    50% {
+      right: 400px;
+      top: 000px;
+    }
+
+    75% {
+      right: 0px;
+      top: 0px;
+    }
+
+    100% {
+      right: 0px;
+      top: 0px;
+    }
+  }
+
+  @keyframes example2 {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+
+    25% {
+      left: 800px;
+      top: 0px;
+    }
+
+    50% {
+      left: 400px;
+      top: 0px;
+    }
+
+    75% {
+      left: 0px;
+      top: 0px;
+    }
+
+    100% {
+      left: 0px;
+      top: 0px;
+    }
+  }
+
+  .score {
+    margin: 30px;
+  }
+
+  .donate {
+    text-align: center;
+    font-size: 6rem;
+    position: relative;
+    animation: wheelHueColor 1s infinite;
+  }
+
+  .help-me {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    color: #ffff;
+    text-align: center;
+    background-color: #000;
+    opacity: 70%;
+  }
+
+  .weblink {
+    color: #ffff;
+    font-size: 1.3rem;
+  }
+
+  body {
+    background-image: url(images/stars.jpg);
+    text-align: center;
+  }
+
+  @keyframes wheelHueColor {
+    from, to {
+      color: rgb(236, 100, 75);
+    }
+
+    10% {
+      color: rgb(219, 10, 91);
+    }
+
+    20% {
+      color: rgb(174, 168, 211);
+    }
+
+    30% {
+      color: rgb(89, 171, 227);
+    }
+
+    40% {
+      color: rgb(37, 116, 169);
+    }
+
+    50% {
+      color: rgb(3, 201, 169);
+    }
+
+    60% {
+      color: rgb(22, 160, 133);
+    }
+
+    70% {
+      color: rgb(233, 212, 96);
+    }
+
+    80% {
+      color: rgb(243, 156, 18);
+    }
+
+    90% {
+      color: rgb(236, 240, 241);
+    }
+  }
+
+  .title {
+    color: rgb(236, 100, 75);
+    animation: wheelHueColor 2s infinite;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  h1 {
+    margin: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 5px 0 #232931;
+  }
+
+  h2 {
+    margin: 10px 30px 10px 30px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 5px 0 #232931;
+    font-size: 2rem;
+    color: #ffff;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #ffff;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  }
